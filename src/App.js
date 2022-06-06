@@ -1,10 +1,14 @@
-import "./styles.css";
+import React from "react";
+import LiveClock from "./comonents/LiveClock/LiveClock";
+import Carousel from "./comonents/SimpleCarousel/SimpleCarousel";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <>
+      <LiveClock />
+      <Carousel />
+    </>
   );
 }
+
+export default App;
