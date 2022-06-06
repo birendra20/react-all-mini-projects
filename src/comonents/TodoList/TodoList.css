@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  margin-top: 10px;
+}
+.list > p {
+  min-width: 100px;
+}
+
+.list > button {
+  margin-left: 10px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
