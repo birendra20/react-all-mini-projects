@@ -1,2 +1,2 @@
-# react-all-mini-projects
+# react-practice
 Created with CodeSandbox
